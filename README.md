@@ -7,6 +7,9 @@ https://www.dnscrypt.org/
 ## Build
     docker build --no-cache -t danchal/dnscrypt-proxy .
 
+## Push
+    docker push danchal/dnscrypt-proxy
+
 ## Run
     $ docker run -d \
         --name dnscrypt-proxy \
