@@ -5,10 +5,10 @@ Alpine Linux Docker running dnscrypt-proxy.
 https://www.dnscrypt.org/
 
 ## Build
-    docker build --no-cache -t danchal/dnscrypt-proxy .
+    docker build --no-cache -t danchal/dnscrypt-proxy:tag .
 
 ## Push
-    docker push danchal/dnscrypt-proxy
+    docker push danchal/dnscrypt-proxy:tag
 
 ## Run
     $ docker run -d \
