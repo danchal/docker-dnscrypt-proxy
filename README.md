@@ -17,4 +17,4 @@ https://www.dnscrypt.org/
         --name dnscrypt-proxy \
         -v /config:/usr/share/dnscrypt-proxy:ro \
         -p 5353:5353 \
-        dnscrypt-proxy
+        danchal/dnscrypt-proxy
