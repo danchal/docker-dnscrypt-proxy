@@ -15,6 +15,6 @@ https://www.dnscrypt.org/
 ## Run
     $ docker run -d \
         --name dnscrypt-proxy \
-        -v /config:/usr/share/dnscrypt-proxy:ro \
-        -p 5353:5353 \
+        -v /usr/share/dnscrypt-proxy:/config:ro \
+        -p 5353:5353/udp \
         danchal/dnscrypt-proxy
